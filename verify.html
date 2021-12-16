@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+        
+    </head>
+    <body class="text-center bg-gradient-info">
+        <div class="containter bg-gradient-info">
+            <!--NavBar-->
+            <div class="row">
+                <div class="col my-col">
+                    
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                      <a class="navbar-brand" href="#">Cutitronics Admin Screen</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                
+                      <div class="collapse navbar-collapse" id="navbarsExample05">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://cutitronics.com/">Cutitronics Website</a>
+                          </li>
+                          <li class="nav-item ml-auto">
+                              <li class="nav-item text-nowrap">
+                                <a class="nav-link" href="sign-in.html">Sign In</a>
+                              </li>
+                              <li class="nav-item text-nowrap">
+                                <a class="nav-link" href="register.html">Register</a>
+                              </li>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+
+                </div>
+            </div>
+            
+            <!--Verify account form-->
+            <div class="row">
+                <div class="col justify-content-center">
+                    <form id="verifyForm" class="form-signin">
+                        <img class="mb-4" src="images/cutitronics-brand-logo.png" alt="" width="375" height="120">
+                        <h1 class="h3 mb-3 font-weight-normal">Verify Your Account</h1>
+                        
+                        <label for="emailInputVerify" class="sr-only"> Email Address</label>
+                        <input type="email" id="emailInputVerify" class="form-control" placeholder="Email Address" pattern=".*" required autofocus>
+                        
+                        <label for="codeInputVerify" class="sr-only">Verification Code</label>
+                        <input type="password" id="codeInputVerify" class="form-control" placeholder="Verification Code" pattern=".*" required>
+        
+                        <input type="submit" class="btn btn-lg btn-primary btn-block" value="Verify">
+                        <p class="mt-5 mb-3 text-muted">&copy; Cutitronics Ltd</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/cognito-auth.js"></script>
+    </body>
+    
+</html>

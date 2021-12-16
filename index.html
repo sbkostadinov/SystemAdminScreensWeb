@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Cutitronics Admin Screen</title>
+
+
+</head>
+  <body class="bg-gradient-info">
+        <div class="container bg-gradient-info my-container">
+
+            <!--Sign-in alert-->
+            <div class="row" id="sign-in-alert" style="display:none">
+                <div class="col">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        <strong>Register or Sign-in</strong> to access the full functionality of this webpage
+                      </div>
+                </div>
+            </div>
+
+            <div class="row my-row">
+                <div class="col my-col">
+                    
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                      <a class="navbar-brand" href="#">Cutitronics System Admin Screen</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                
+                      <div class="collapse navbar-collapse" id="navbarsExample05">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://cutitronics.com/">Cutitronics Website</a>
+                          </li>
+                          <li class="nav-item ml-auto">
+                              <li class="nav-item text-nowrap">
+                                <a class="nav-link" href="sign-in.html">Sign In</a>
+                              </li>
+                              <li class="nav-item text-nowrap">
+                                <a class="nav-link" href="register.html">Register</a>
+                              </li>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row pt-2">
+
+                <!--Manage Devices-->
+                <div class="col">
+                    
+                    <div class="alert alert-info" role="alert">
+                        <h4 class="alert-heading">Manage Brand Devices</h4>
+                        <p>Add, view or modify cutitronics devices</p>
+                        <hr>
+                        <p class="mb-0">
+                            <a class="btn btn-outline-info" href="create-deviceID.html">Create Device ID's</a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!--Manage Brands-->
+                <div class="col">
+                    
+                    <div class="alert alert-info" role="alert">
+                        <h4 class="alert-heading">Manage Brands</h4>
+                        <p>Add, view or modify cutitronics brands</p>
+                        <hr>
+                        <p class="mb-0">
+                            <a class="btn btn-outline-info" href="#">Manage Brands</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="row">
+
+                <!--Manage Firmware-->
+                <div class="col">
+                    
+                    <div class="alert alert-info" role="alert">
+                        <h4 class="alert-heading">Manage Device Firmware</h4>
+                        <p>Upload Cutitornics device firmware</p>
+                        <hr>
+                        <p class="mb-0">
+                            <a class="btn btn-outline-info" href="firmware-upload.html">Manage Firmware</a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!--Manage Cartridges-->
+                <div class="col">
+                    
+                    <div class="alert alert-info" role="alert">
+                        <h4 class="alert-heading">Manage Cartridges</h4>
+                        <p>Add, view or modify cutitronics brand cartridges</p>
+                        <hr>
+                        <p class="mb-0">
+                            <a class="btn btn-outline-info" href="create-cartID.html">Create CartridgeID's</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row pt-2">
+                <div class="col justify-content-center">
+                    <footer class="footer bg-light">
+                      <div class="container">
+                        <span class="text-muted">Cutitronics Ltd - Brand Admin Screen</span>
+                      </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/cognito-auth.js"></script>
+        <script src="js/index.js"></script>
+  </body>
+</html>
