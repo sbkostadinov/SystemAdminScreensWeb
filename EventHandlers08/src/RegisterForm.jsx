@@ -1,4 +1,4 @@
-export default function RegisterForm ({name, password, email}) {
+function RegisterForm ({name, password, email}) {
 
     return (
 

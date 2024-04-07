@@ -1,4 +1,4 @@
-export function NavBar(props){
+function NavBar(props){
 
     return (
         //<!--Navbar-->
