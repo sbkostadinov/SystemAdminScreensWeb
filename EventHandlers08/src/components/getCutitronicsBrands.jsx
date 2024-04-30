@@ -1,7 +1,7 @@
 /*NOT READY TO USE SIMPLY ADDED AS A DUMMY EXAMPLE TO BUILD UPON*/
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
-function GetCutironicsBrands (){
+export default function GetCutironicsBrands (){
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
@@ -42,3 +42,5 @@ function GetCutironicsBrands (){
         );
      }
 }
+
+export { GetCutitronicsBrands } from './components/getCutitronicsBrands.jsx';
