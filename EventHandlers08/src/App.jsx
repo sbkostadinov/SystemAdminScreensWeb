@@ -1,4 +1,4 @@
-import { UserName }  from './UserName.jsx';
+import { RegisterForm } from './RegisterForm.jsx';
 
 export const user  = {
   name: '',
@@ -14,19 +14,11 @@ function App() {
 
   return (
     <div id="app">
-      <h1>User Login</h1>
-      <p>
-        <label>Name</label>
-        {/* You don't need to do anything with this input! You'll learn how to handle user input later */}
-        <input type="text" />
-      </p>
-      {/*Passing anonnomus function with handleCreateUser(name) function as an argument to setUserName prop for UserName component*/}
-      <p id="actions">
-         <UserName selectSetUserName= { () => handleCreateUser("CantStandMyself")}>Component</UserName>
-        {"Fantastic World it is"}
-      </p>
-      
+
+      <RegisterForm>Register</RegisterForm>  
     </div>
+
+
   );
 }
 

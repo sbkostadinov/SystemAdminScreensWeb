@@ -1,4 +1,4 @@
-function RegisterForm ({name, password, email}) {
+function RegisterForm () {
 
     return (
         <div>
